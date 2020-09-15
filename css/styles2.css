@@ -1,0 +1,78 @@
+/* comentario */
+
+h4 {
+    color: blueviolet;
+    font-size-adjust: 42xp ;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size-adjust: 18xp
+}
+
+
+header {
+    padding-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height:20vh;
+    background-color: tomato;
+    background-size: cover;
+    color: black;
+    text-align: center ;
+       
+}
+
+
+/* genero una clase con . + nombre */
+.destacar1 {
+    color: tomato;
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* estilos de borde */
+    border: 3px solid tomato;
+    border-radius: 5px;
+}
+
+/* Pseudoclases */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    
+}
+
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    
+}
+
+textarea{
+    resize: none;
+}
+
+.cajaloca{
+    position: relative;
+    left: 0px;
+    animation-name: caja;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes caja {
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 200px;
+    }
+    100%{
+        left: 0px;
+    }
+}

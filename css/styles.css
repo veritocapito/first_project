@@ -1,0 +1,101 @@
+/* comentario */
+
+h4 {
+    color: blueviolet;
+    font-size-adjust: 42xp ;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h4 {
+    font-size-adjust: 18xp ;
+}
+
+header {
+    padding: 10px;
+    height: 20vh;
+    background-color: white;
+    background-size: cover;
+           
+}
+
+.header2 {
+    height: 20vh; 
+    text-align: center;  
+}
+
+/* genero una clase con . + nombre */
+.destacar1 {
+    color: tomato;
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* estilos de borde */
+    border: 3px solid tomato;
+    border-radius: 5px;
+}
+
+.subrayar {
+    text-decoration-line: underline;
+
+}
+
+.padding-titulo{
+    padding: 1%;
+}
+
+.margin-titulo{
+    margin: 1%;
+}
+
+.cuadrado{
+    width: 20xp;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.mas{
+    background: tomato;
+}
+
+/* Pseudoclases */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.shadow {
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+    
+}
+
+
+
+.col{
+    width: 10%;
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    align-items: flex-end;
+    justify-items: end;
+    padding: 20px;
+    text-justify: auto;
+}
+
+

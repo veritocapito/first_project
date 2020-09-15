@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Estemos en contacto</h1>
+    
+    <h2>Ejemplo de Login</h2>
+
+    <form method="GET" action="#">
+        <input type="text" name="usuario" placeholder="ejemplo@correo.com" required/>
+        <input type="password" name="password" placeholder="contraseña" required/>
+        <!-- input type="button" value="Ingresar" /> No gusta -->
+        <button> Ingresar </button>
+
+    </form>
+
+    <h2>Registro</h2>
+    <form method="POST" action="#">
+        <label for="nombre">Nombre *</label>
+        <input type="text" placeholder="Nombre" id="nombre" maxlength="20" />
+        
+        <br>
+        <label for="apellido"> Apellido </label>
+        <input type="text" placeholder="Apellido" id="apellido" maxlength="20" />
+
+        <br>
+        <label for="correo"> Correo Electronico</label>
+        <input type="email" placeholder="email" required name="email" id="correo"/>
+
+        <br>
+        <label for="nacimiento"> Fecha de Nacimiento</label>
+        <input type="date" required name="nacimiento" id="nacimiento"/>
+
+        <br>
+        <label for="telefono"> Telefono</label>
+        <input type="tel" required placeholder="celular"   name="telefono" id="telefono"/>
+
+        <br>
+        <label for="nacionalidad"> Nacionalidad</label>
+        <select id="nacionalidad">
+            <option>Argentina</option>
+            <option>Brasil</option>
+            <option>Colombia</option>
+            <option>Ecuador</option>
+            <option>Venezuela</option>
+        </select>
+
+        <br>
+        <label for="mujer">Mujer</label>
+        <input type="radio" name="sexo" value="mujer" id="mujer"/>
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="sexo" id="hombre" value="hombre"/>
+        <label for="personalizado">Personalizado</label>
+        <input type="radio" name="sexo" id="personalizado" value="personalizado"/>
+        
+        <br>
+        <button> Registrate </button>
+    </form>
+</body>
+</html>
